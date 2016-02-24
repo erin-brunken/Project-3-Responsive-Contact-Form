@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<head>
+	<title>Online Registration Form - Treehouse Project</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+	<body>
+	
+		<div class="main-header">  <!--Opening div for main-header-->
+			<h1>THE CODE REVIEW</h1>
+		</div>  <!--Closing div for main-header-->
+
+		<div class="container">   <!--Opening div for container-->
+		
+
+			
+			<div class="main-title">   <!--Opening div for main-title-->
+				<h2>Signup for our newsletter</h2>
+				<p>Get the latest news on how your code is doing right in your inbox</p>
+			</div>   <!--Closing div for main-title-->
+			
+			<hr class="first-line">
+			<hr class="second-line">
+			
+			<div class="contact-form">   <!--Opening div for contact-form-->
+			
+				<form action="index.html" method="post">
+				
+				<fieldset>		
+					<legend>Contact Information</legend>	
+						<div class="row">
+							
+							<label for="full-name">Full Name</label>
+								
+							<input class="width-input" type="text" id="full-name" name="full_name" placeholder="Required  ">
+						</div>
+									
+						<div class="row">
+								
+							<label for="email">Email Address</label>
+								
+							<input class="width-input" type="email" id="email" name="user_email" placeholder="Required  ">
+						</div>
+									
+						<div class="row">
+						
+							<label for="phone">Phone Number</label>
+								
+							<input class="width-input" type="tel" id="phone" name="user_phone">
+						</div>
+					
+						<div class="row">
+								
+							<label for="street-address">Street Address</label>
+								
+							<input class="width-input" type="text" id="street-address" name="street_address">
+						</div>
+							
+						<div class="row">
+								
+							<label for="city">City</label>
+								
+							<input class="width-input" type="text" id="city" name="city_address">
+						</div>
+
+						<div class="row options">
+							<label for="state">State</label>
+								
+								<select class="width-input" name="state" id="state">
+									<option value="Choose State">Choose State</option>
+									<option value="northland">Northland</option>
+									<option value="auckland">Auckland</option>
+									<option value="waikato">Waikato</option>
+									<option value="bayofplenty">Bay of Plenty</option>
+									<option value="gisborne">Gisborne</option>
+									<option value="hawkesbay">Hawke's Bay</option>
+									<option value="taranaki">Taranaki</option>
+									<option value="manawatu-wanganui">Manawatu-Wanganui</option>
+									<option value="wellington">Wellington</option>
+									<option value="tasman">Tasman</option>
+									<option value="nelson">Nelson</option>
+									<option value="marlborough">Marlborough</option>
+									<option value="westcoast">West Coast</option>
+									<option value="canterbury">Canterbury</option>
+									<option value="otago">Otago</option>
+									<option value="southland">Southland</option>
+								</select>
+						</div>
+								
+						<div class="row">
+							<label class="width-label" for="zip_code">Zip Code</label>
+								
+							<input type="text" id="zip_code" name="zipcode" size="30" maxlength="10">
+						</div>
+					</fieldset>
+													
+					<hr class="second-line bottom-secondline">
+					
+					<fieldset>
+
+					<legend class="news">Newsletter</legend>
+					
+						<div class="row check">
+						
+							<label for="newsletters">Select the newsletters you would like to recieve</label><br>
+						
+							<input class="check-input" type="checkbox" id="newsletters" name="newsletters" value="html-news" checked>HTML News<br>
+							<input type="checkbox" name="newsletters" value="css-news">CSS News<br>
+							<input type="checkbox" name="newsletters" value="js-news">Javascript News<br>
+						
+						</div>
+					
+						<div class="row check">
+						
+							<label for="newsletter-format">Newsletter format</label><br>
+						
+							<input class="check-input" type="radio" name="newsletter-format" value="html" checked>HTML<br>
+							<input type="radio" name="newsletter-format" id="newsletter-format" value="plain-text">Plain text<br>
+						</div>
+					
+						<div class="row check">
+							
+							<label class="other-topics" for="other">Other topics you'd like to hear about</label>
+							
+							<textarea class="width-input check-input" name="other-topics" id="other" cols="30" rows="6"></textarea>
+						</div>
+						
+					</fieldset>
+															
+						<button class="form-button" type="submit">Sign Up</button>
+					
+				</form>	
+			
+			</div>   <!--Closing div for form-->
+		
+		</div>  <!--Closing div for container-->
+		
+		<footer>   <!--Opening div for footer-->
+			<h4>Copyright The Code Review</h4>
+		</footer>  <!--Closing div for footer-->
+		
+	</body>
+	
+</html>
