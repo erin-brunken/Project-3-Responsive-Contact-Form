@@ -39,16 +39,16 @@
 									
 						<div class="row">
 								
-							<label for="email">Email Address</label>
+							<label for="email-address">Email Address</label>
 								
-							<input class="width-input" type="email" id="email" name="user_email" placeholder="Required  ">
+							<input class="width-input" type="email" id="email-address" name="user_email" placeholder="Required  ">
 						</div>
 									
 						<div class="row">
 						
-							<label for="phone">Phone Number</label>
+							<label for="user-phone">Phone Number</label>
 								
-							<input class="width-input" type="tel" id="phone" name="user_phone">
+							<input class="width-input" type="tel" id="user-phone" name="user_phone">
 						</div>
 					
 						<div class="row">
@@ -60,15 +60,15 @@
 							
 						<div class="row">
 								
-							<label for="city">City</label>
+							<label for="user-city">City</label>
 								
-							<input class="width-input" type="text" id="city" name="city_address">
+							<input class="width-input" type="text" id="user-city" name="city_address">
 						</div>
 
 						<div class="row options">
-							<label for="state">State</label>
+							<label for="user-state">State</label>
 								
-								<select class="width-input" name="state" id="state">
+								<select class="width-input" name="user-state" id="user-state">
 									<option value="Choose State">Choose State</option>
 									<option value="northland">Northland</option>
 									<option value="auckland">Auckland</option>
@@ -103,28 +103,30 @@
 					<legend class="news">Newsletter</legend>
 					
 						<div class="row check">
+
+							<label>Select the newsletters you would like to receive</label><br>
 						
-							<label for="newsletters">Select the newsletters you would like to recieve</label><br>
-						
-							<input class="check-input" type="checkbox" id="newsletters" name="newsletters" value="html-news" checked>HTML News<br>
-							<input type="checkbox" name="newsletters" value="css-news">CSS News<br>
-							<input type="checkbox" name="newsletters" value="js-news">Javascript News<br>
+							
+							<input class="check-input" type="checkbox" id="html-news" name="newsletters" value="news" checked><label for="html-news">HTML News</label><br>
+							
+							<input class="check-input" type="checkbox" id="css-news" name="newsletters" value="news"><label for="css-news">CSS News</label><br>
+							<input class="check-input" type="checkbox" id="js-news" name="newsletters" value="news"><label for="js-news">JavaScript News</label>
 						
 						</div>
 					
 						<div class="row check">
 						
-							<label for="newsletter-format">Newsletter format</label><br>
+							<label>Newsletter format</label><br>
 						
-							<input class="check-input" type="radio" name="newsletter-format" value="html" checked>HTML<br>
-							<input type="radio" name="newsletter-format" id="newsletter-format" value="plain-text">Plain text<br>
+							<input class="check-input" type="radio" id="html-format" name="format" value="format" checked><label for="html-format">HTML</label><br>
+							<input class="check-input" type="radio" name="format" id="plain-format" value="format"><label for="plain-format">Plain Text</label>
 						</div>
 					
 						<div class="row check">
 							
 							<label class="other-topics" for="other">Other topics you'd like to hear about</label>
 							
-							<textarea class="width-input check-input" name="other-topics" id="other" cols="30" rows="6"></textarea>
+							<textarea class="width-input" name="other-topics" id="other" cols="30" rows="6"></textarea>
 						</div>
 						
 					</fieldset>

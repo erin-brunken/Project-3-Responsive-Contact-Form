@@ -154,10 +154,12 @@ select {
 .width-input {
 	width: 100%;
 	padding: 1em 0;
+	margin-top: 1em;
 }
 
 .check-input {
-	margin-top: 1.5em;
+	margin-top: .5em;
+	margin-right: 0.5em;
 }
 
 .width-label {
@@ -182,6 +184,10 @@ select {
 
 .other-topics {
 	margin-top: 5em;
+}
+
+.other-topics textarea {
+	margin-top: 2em;
 }
 
 .bottom-secondline {
@@ -260,7 +266,7 @@ textarea:focus {
 	}
 	
 	.check-input {
-		margin-top: 2em;
+		margin-top: 1em;
 	}
 
 	.width-label {
